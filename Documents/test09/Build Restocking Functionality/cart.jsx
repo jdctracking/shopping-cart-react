@@ -167,7 +167,7 @@ const Products = (props) => {
   };
   // TODO: implement the restockProducts function
   const restockProducts = (url) => {
-    doFetch(url);
+     doFetch(url);
     const products = data;
     let restock = products.map((product)=>{
       let name = product.name;
